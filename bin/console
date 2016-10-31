@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "martyr"
+require_relative "../spec/support/fixtures"
+
+require "pry"
+Pry.start
+
+# require "irb"
+# IRB.start
